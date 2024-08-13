@@ -1,6 +1,8 @@
 import tkinter as tk
+
 import serial
 from serial.tools.list_ports import comports
+
 
 class ServoControlApp(tk.Tk):
     def __init__(self, arduino_port):

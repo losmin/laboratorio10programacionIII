@@ -1,7 +1,9 @@
-import tkinter as tk
-import serial
 import time
+import tkinter as tk
 from tkinter import messagebox
+
+import serial
+
 
 class StepperControlApp:
     def __init__(self, root):
